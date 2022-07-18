@@ -27,7 +27,9 @@ main is in **bikeshare.py** file
 
 
 raw data, which shall be analysed must be in **csv** format with the following header line:
-´´´,Start Time,End Time,Trip Duration,Start Station,End Station,User Type,Gender,Birth Year´´´
+```
+,Start Time,End Time,Trip Duration,Start Station,End Station,User Type,Gender,Birth Year
+´´´
 
 *please adopt bikeshare.py file to analyse your csv files.*
 
