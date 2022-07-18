@@ -71,8 +71,7 @@ def get_filters():
     """
     city_nr = ''
     city_map = {'1': 'Chicago', '2': 'New York', '3': 'Washington'}
-    print('please sepcify a city:')
-    print(pretty_string_from_dict(city_map))
+    print('please sepcify a city:\n', pretty_string_from_dict(city_map))
     while city_nr not in city_map.keys():
         city_nr = input('make your choice: ')
     print('you chose: {}'.format(city_map[city_nr]))
@@ -82,8 +81,7 @@ def get_filters():
                  '5': 'May', '6': 'Jun', '7': 'Jul', '8': 'Aug',
                  '9': 'Sep', '10': 'Oct','11': 'Nov', '12': 'Dec',
                  'all': 'all'}
-    print('please sepcify a month:')
-    print(pretty_string_from_dict(month_map))
+    print('please sepcify a month:\n', pretty_string_from_dict(month_map))
     month_nr = ''
     while month_nr not in month_map.keys():
         month_nr = input('make your choice: ').lower()
@@ -91,8 +89,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day_map = {'all': 'all', '1': 'Mon', '2': 'Tue', '3': 'Wed',
                '4': 'Thu', '5': 'Fri', '6': 'Sat', '0': 'Sun'}
-    print('please sepcify a day:')
-    print(pretty_string_from_dict(day_map))
+    print('please sepcify a day:', pretty_string_from_dict(day_map))
     day_nr = ''
     while day_nr not in day_map.keys():
         day_nr = input('make your choice: ').lower()
