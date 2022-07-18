@@ -1,17 +1,36 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+2022-07-18T13:39:00
 
 ### Project Title
-Replace the Project Title
+"bikeshare" Project related to Udacity Nanodegree
 
 ### Description
-Describe what your project is about and what it does
+commandline tool to analyse bikeshare data (csv raw data) with possibilities for user interaction.
+
+following analyses are implemented:
+  * display number of data points matching defined filters
+  * most popular stations and trips
+  * trip duration
+  * most frequent times of travel
+  * user statistics
+
+
+following filters are implemented:
+  * define a time period, which data shall be analysed
+  * define a day of week, which shall be analyzed 
+  * print raw data matching filters
+    
+
 
 ### Files used
-Include the files used
+main is in **bikeshare.py** file
+
+
+raw data, which shall be analysed must be in **csv** format with the following header line:
+´´´,Start Time,End Time,Trip Duration,Start Station,End Station,User Type,Gender,Birth Year´´´
+
+*please adopt bikeshare.py file to analyse your csv files.*
+
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+this repository and its content was initated by and originated in my Udacity Nanodegree "Programming for Data Science with Python". Thanks to Udacity for inspiration and guidance!
