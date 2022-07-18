@@ -2,7 +2,8 @@ import time
 import pandas as pd
 import json
 
-# time measures are rounded to ROUND_DIGITS digits after comma
+# time measures are rounded to ROUND_DIGITS digits after comma - 
+# e.g. ROUND_DIGITS = 3 will create outputs like 0.123
 ROUND_DIGITS = 3
 
 
