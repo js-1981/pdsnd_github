@@ -2,7 +2,7 @@
 2022-07-18T13:39:00
 
 ### Project Title
-"bikeshare" Project related to Udacity Nanodegree
+"bikeshare" Project related to Udacity Nanodegree "Programming for Data Science with Python"
 
 ### Description
 commandline tool to analyse bikeshare data (csv raw data) with possibilities for user interaction.
